@@ -6,6 +6,7 @@ da:
         submit: Send instruktioner igen
         title: Send bekræftelsesinstruktioner igen
       show:
+        instructions: Bekræft kontoen med e-mail %{email}
         new_password_confirmation_label: Gentag adgangskode
         new_password_label: Ny adgangskode
         please_set_password: Vælg din nye adgangskode (den vil gøre det muligt for dig at logge ind med ovenstående e-mail)
@@ -49,6 +50,10 @@ da:
           title: Tilmeld som organisation eller gruppe
         success:
           back_to_index: Jeg har forstået det; gå tilbage til min forside
+          instructions_1: "<strong>Vi vil kontakte dig snarrest</strong> for at verificere, at du reelt repræsenterer denne gruppe."
+          instructions_2: While your <strong>email is reviewed</strong>, we have sent you a <strong>link to confirm your account</strong>.
+          instructions_3: Once confirmed, you may begin to participate as an unverified collective.
+          thank_you: Thank you for registering your collective on the website. It is now <strong>pending verification</strong>.
           title: Registrering af organisation/gruppe
     passwords:
       edit:
@@ -118,4 +123,7 @@ da:
           username_note: Det navn, der vises i forbindelse med dine indlæg
         success:
           back_to_index: Jeg har forstået det; gå tilbage til min startside
+          instructions_1: Please <b>check your email</b> - we have sent you a <b>link to confirm your account</b>.
+          instructions_2: Once confirmed, you may begin participation.
+          thank_you: Thank you for registering for the website. You must now <b>confirm your email address</b>.
           title: Bekræft din e-mail adresse

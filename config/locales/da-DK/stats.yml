@@ -14,6 +14,7 @@ da:
     total: "I alt"
     geozone: "Distrikt"
     no_demographic_data:
+      zero: ""
       one: "*Der findes ingen demografisk data for 1 deltager."
       other: "* Der findes ingen demografisk data for %{count} deltagere."
     budgets:
@@ -26,12 +27,17 @@ da:
       by_heading: "Deltagere pr. fase"
       total: "I alt"
       heading: "Budgetområde"
+      investments_sent: "Investment proposals sent"
       participants_support_phase: "Deltagere i støttefasen"
       participants_vote_phase: "Deltagere i afstemningsfasen"
       participants_every_phase: "Antal deltagere i alt"
       percent_total_participants: "% antal deltagere i alt"
+      percent_heading_census: "% Heading census"
       participatory_disclaimer: "** Antallet af deltagere refererer til brugere, der har oprettet, støttet eller stemt på projektidéer."
+      heading_disclaimer: "*** Data about headings refer to the heading where each user voted, not necessarily the one that person is registered on."
     polls:
+      by_channel: "Participants by channel"
+      vote_by_channel: "Vote type by channel"
       web_percentage: "%{percentage} Online"
       booth_percentage: "%{percentage} Stemmeboks"
       letter_percentage: "%{percentage} Mail"
